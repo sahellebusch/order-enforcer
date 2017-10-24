@@ -38,7 +38,7 @@ const isSorted = (asc, list, path = null) => {
  *
  * @param {Array.<*>} list        list of items to determine if sorted
  * @param {String}    [path=null] for a list of objects, compares the value of the path of the object
- * @returs {Boolean}  true if sorted
+ * @returns {Boolean}  true if sorted
  * @throws {TypeError} if list is not an array or values to be compared are not a string or number
  */
 const isAscending = (list, path) => isSorted(true, list, path);
@@ -48,7 +48,7 @@ const isAscending = (list, path) => isSorted(true, list, path);
  *
  * @param {Array.<*>} list        list of items to determine if sorted
  * @param {String}    [path=null] for a list of objects, compares the value of the path of the object
- * @returs {Boolean}  true if sorted
+ * @returns {Boolean}  true if sorted
  * @throws {TypeError} if list is not an array or values to be compared are not a string or number
  */
 const isDescending = (list, path) => isSorted(false, list, path);
