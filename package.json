@@ -1,0 +1,35 @@
+{
+  "name": "order-enforcer",
+  "version": "1.0.0",
+  "description": "Small library for .",
+  "main": "./src/order-enforcer.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahellebusch/order-enforcer"
+  },
+  "keywords": [
+    "ascending",
+    "descending",
+    "ordering",
+    "order"
+  ],
+  "author": "Sean Hellebusch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sahellebusch/order-enforcer/issues"
+  },
+  "homepage": "https://github.com/sahellebusch/order-enforcer/blob/master/README.md",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^1.0.0-alpha",
+    "mocha": "^4.0.1",
+    "nyc": "^11.2.1"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  }
+}
