@@ -1,0 +1,40 @@
+{
+  "name": "order-enforcer",
+  "version": "1.0.0",
+  "description": "Small library for .",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "test:watch": "npm test -- --watch",
+    "cover": "cross-env BABEL_ENV=commonjs istanbul cover _mocha -- --compilers js:babel-register --recursive"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "keywords": [
+    "boilerplate",
+    "npm",
+    "module",
+    "node",
+    "javascript"
+  ],
+  "author": "Sean Hellebusch",
+  "license": "MIT",
+  "bugs": {
+    "url": "TODO"
+  },
+  "homepage": "TODO",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^1.0.0-alpha",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  }
+}
