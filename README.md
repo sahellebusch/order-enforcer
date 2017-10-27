@@ -3,7 +3,7 @@ Small library for verifying lists are in order.  See tests for examples.
 
 [![NPM](https://nodei.co/npm/order-enforcer.png)](https://nodei.co/npm/order-enforcer/)
 
-[![build status](https://api.travis-ci.org/sahellebusch/order-enfocer.png?branch=master)](http://travis-ci.org/sahellebusch/order-enforcer)
+[![build status](https://travis-ci.org/sahellebusch/order-enforcer.svg?branch=master)](http://travis-ci.org/sahellebusch/order-enforcer)
 [![npm version](https://badge.fury.io/js/order-enforcer.svg)](https://badge.fury.io/js/order-enforcer)
 
 ## Functions
